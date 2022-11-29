@@ -1,11 +1,8 @@
-const btn = document.querySelector("#btn")
+const toggleBtn = document.querySelector(".navbar_togleBtn")
+const menu = document.querySelector(".navbar_menu")
+const icons = document.querySelector(".navbar_icons")
 
-btn.addEventListener("click", function (e) {
-    const nav = document.querySelector("#nav")
-    nav.style.display = "block"
-})
-
-btn.addEventListener("blur", function (e) {
-    const nav = document.querySelector("#nav")
-    nav.style.display = "none "
+toggleBtn.addEventListener("click", () => {
+    menu.classList.toggle("active")
+    icons.classList.toggle("active")
 })

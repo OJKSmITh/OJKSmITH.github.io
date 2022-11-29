@@ -6,26 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/3dc32a5db6.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/header.css">
 </head>
 
 <body>
-    <div id="wrap">
-        <div id="header">
-            <div id="header_wrapper">
-                <a href="#header" id="afrm">
-                    <span>Smith</span>
-                </a>
-                <button id="btn">&#9776</button>
-            </div>
-            <div id="nav">
-                <div><a href="#About">About</a></div>
-                <div><a href="#Experience">Experience</a></div>
-                <div><a href="#Skills">Skills</a></div>
-                <div><a href="#Projects">Projects</a></div>
-            </div>
+    <nav class="navbar">
+        <div class="navbar_logo">
+            <i class="fa-brands fa-cloudsmith"></i>
+            <a href="#">Smith</a>
         </div>
-    </div>
+
+        <ul class="navbar_menu">
+            <li><a href="">About</a></li>
+            <li><a href="">Experience</a></li>
+            <li><a href="">Skills</a></li>
+            <li><a href="">Projects</a></li>
+        </ul>
+
+        <ul class="navbar_icons">
+            <li><i class="fa-brands fa-github"></i></li>
+            <li><i class="fa-brands fa-internet-explorer"></i></li>
+        </ul>
+
+        <a href="#" class="navbar_togleBtn">
+            <i class="fa-solid fa-bars"></i>
+        </a>
+    </nav>
 </body>
 <script src="./JS/header.js"></script>
 

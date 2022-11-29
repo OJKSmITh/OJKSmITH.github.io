@@ -20,3 +20,17 @@ button {
     justify-content: space-between;
     z-index: 100;
 }
+
+
+#nav {
+    background-color: #bd5d38;
+    padding: 7px 0 0 0;
+}
+
+#nav>div>a {
+    color: #d1cfcf;
+}
+
+#nav {
+    display: none;
+}

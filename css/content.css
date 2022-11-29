@@ -7,6 +7,7 @@
 .content {
     width: 100%;
     height: 100vh;
+
 }
 
 .content_wrap {
@@ -22,6 +23,7 @@
     align-items: center;
 }
 
+
 #s1H h5 {
     width: 100%;
 }
@@ -34,9 +36,18 @@
     width: 100%;
 }
 
-#s1H div {
-    width: 100%;
-    padding-left: 50%;
+#s1H>div>a>button {
+    width: 3vw;
+    margin-left: 30%;
+
+}
+
+#box2 {
+    position: absolute;
+    border-style: solid;
+    width: 27vw;
+    height: 20vh;
+    z-index: -1;
 }
 
 
@@ -111,6 +122,10 @@ li {
     list-style: none;
 }
 
+#experience {
+    margin-top: 20px;
+}
+
 #s3H {
     display: flex;
     flex-wrap: wrap;
@@ -124,16 +139,33 @@ li {
     text-align: center;
 }
 
-#s3H ul li {
+#s3H>ul>li {
     border-style: solid;
     width: 30vw;
     height: 20vh;
     text-align: center;
+    margin-top: 4px;
 }
+
+#s3H>ul>li>div {
+    font-size: 20px;
+}
+
 
 @media screen and (max-width:768px) {
     #s3H {
         width: 100vw;
     }
 
+}
+
+/* skills */
+#skill_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#skill_1 {
+    width: 100%;
+    display: block;
 }

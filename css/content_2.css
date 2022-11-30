@@ -1,0 +1,48 @@
+/* skills */
+#skills {
+    padding-top: 80px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
+}
+
+#skill_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+#skill_1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#s_c>div>ul {
+    display: flex;
+    width: 100vw;
+}
+
+#s_c>div>ul>li {
+    display: flex;
+    margin: 0 auto;
+    display: block;
+}
+
+#s_c>div>ul>li>img {
+    width: 12.5vw;
+    height: 25vh;
+    /* justify-content: space-evenly; */
+}
+
+@media screen and (max-width:768px) {
+    #s_c>div>ul {
+        display: block;
+    }
+
+    #s_c>div>ul>li {
+        margin-left: 40vw;
+        height: 60vh;
+    }
+}

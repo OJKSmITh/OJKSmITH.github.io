@@ -28,6 +28,36 @@ const swiper = new Swiper('.swiper', {
     scrollbar: {
         el: '.swiper-scrollbar',
     },
+    breakpoints: {
+
+        768: {
+            slidesPerView: 1,  //브라우저가 768보다 클 때
+            spaceBetween: 40,
+        },
+        1024: {
+            slidesPerView: 1,  //브라우저가 1024보다 클 때
+            spaceBetween: 50,
+        },
+    },
 });
 
+
+
+
+function popup() {
+    var url = "popup.html"
+    var name = "popup test"
+
+    var popupX = (document.body.offsetWidth / 2) - (650 / 2)
+    var popupY = (document.body.offsetHeight / 2) - (400 / 2)
+    var option = `width =650, height =400, left=${popupX},top=${popupY}`
+
+    window.open(url, name, option)
+}
+
+
+
+const sw1 = document.querySelector(".amg1")
+
+sw1.addEventListener("click", popup)
 

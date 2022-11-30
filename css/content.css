@@ -55,12 +55,14 @@
 @media screen and (max-width:768px) {
     .content_wrap {
         width: 100vw;
-
     }
 
     .c1 {
         width: 100vw;
+    }
 
+    #box2 {
+        width: 65vw;
     }
 }
 
@@ -112,10 +114,17 @@
         height: 50vh;
     }
 
+    #s2H_1>img {
+        width: 45vw;
+        height: 30vh;
+    }
+
     #s2H_2 {
         width: 50vw;
         height: 50vh;
     }
+
+
 }
 
 /* experience */

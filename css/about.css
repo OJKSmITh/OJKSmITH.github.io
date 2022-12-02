@@ -1,3 +1,15 @@
+:root {
+    --color--purple: #8338eb;
+    --color--white: #F4F4F4;
+    --color--black: #231F20;
+    --color--blue: #151ada;
+}
+
+#wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
 #about {
     width: 100vw;
     height: 100vh;
@@ -7,6 +19,7 @@
     width: 100%;
     height: 100%;
     background: linear-gradient(to right, #bac0c4, #2e4052);
+    overflow: hidden;
 }
 
 #aboutBox {
@@ -16,6 +29,10 @@
 
 #aboutMe {
     text-align: center;
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: var(--color--white);
+    margin-top: 0.75rem;
+    font-size: 2rem;
 }
 
 #aboutBox {
@@ -42,9 +59,15 @@
     border: 2px solid;
 }
 
+#aboutS1>div {
+    margin-top: 12px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: var(--color--white);
+}
+
 #skill {
     width: 100%;
-    height: 500px;
+    height: 100%;
 
 }
 

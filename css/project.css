@@ -41,3 +41,18 @@
     transform: scale(1.15);
     cursor: pointer;
 }
+
+@media screen and (max-width:492px) {
+    #projectWrap {
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    #videohead>img {
+        width: 70vw;
+    }
+
+    #textHead>div {
+        width: 70vw;
+    }
+}

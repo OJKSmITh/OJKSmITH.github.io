@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="./css/project.css">
     <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Source+Sans+Pro:wght@200&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -48,7 +51,7 @@
                 </div>
                 <div id="aboutBox">
                     <div id="aboutImg">
-                        <img src="./img/증명사진.jpg" alt="">
+                        <img src="./img/images.jpg" alt="">
                     </div>
                     <div>
                         <div id="aboutS1">
@@ -64,28 +67,51 @@
                         <div id="skillSub">skill</div>
                         <div id="skillIcon">
                             <div class="skillIcons">
-                                <img src="./img/html.png">
-                                <img src="./img/css.png">
-                                <img src="./img/js.png" alt="">
-                                <img src="./img/git.png">
+                                <img src="./img/html.png" onclick="openPopup()">
+                                <img src="./img/css.png" onclick="openPopup2()">
+                                <img src="./img/js.png" onclick="openPopup3()">
+                                <img src="./img/git.png" onclick="openPopup4()"">
+                                <img src=" ./img/github.png" onclick="openPopup5()">
                             </div>
                         </div>
                     </div>
-                    <div id="toolBox">
-                        <div id="toolSub">
-                            tool
-                        </div>
-                        <div id="toolIcon">
-                            <div class="toolIcons">
-                                <img src="./img/github.png">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-    </div>
+
+
+
+                    <div class="container">
+                        <div class="popup" id="popup">
+                            <img src="./img/html.png">
+                            <p>기본 html 태그</p>
+                            <button type="button" onclick="closePopup()">OK</button>
+                        </div>
+                        <div class="popup" id="popup2">
+                            <img src="./img/css.png">
+                            <p>css 기본 설정 & 애니메이션</p>
+                            <button type="button" onclick="closePopup2()">OK</button>
+                        </div>
+                        <div class="popup" id="popup3">
+                            <img src="./img/js.png">
+                            <p>JS 기본문법& DOM 기초</p>
+                            <button type="button" onclick="closePopup3()">OK</button>
+                        </div>
+                        <div class="popup" id="popup4">
+                            <img src="./img/git.png">
+                            <p>CLI 기초</p>
+                            <button type="button" onclick="closePopup4()">OK</button>
+                        </div>
+                        <div class="popup" id="popup5">
+                            <img src="./img/github.png">
+                            <p>협업 가능</p>
+                            <button type="button" onclick="closePopup5()">OK</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
 </body>
+<script src="./js/about.js"></script>
 
 </html>

@@ -1,0 +1,43 @@
+#project {
+    width: 100vw;
+    height: 100vh;
+}
+
+#projectWrap {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #bac0c4, #2e4052);
+}
+
+#projectSub {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 10%;
+}
+
+#videohead {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.videoHead {
+    width: 450px;
+    height: 320px;
+    overflow: hidden;
+}
+
+.videoHead>div {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.videoHead>img {
+    transition: 0.3s;
+}
+
+.videoHead>img:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+}
